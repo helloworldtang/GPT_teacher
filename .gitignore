@@ -1,0 +1,30 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Checkpoints and large artifacts
+# keep candidate/verify ignored; allow main checkpoints tracked
+checkpoints_candidate/*
+checkpoints_verify/*
+
+# Tokenizer temp files
+tokenizer/_spm_corpus.txt
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Local export folder for Hugging Face uploads
+hf_export/
+
+# Trae local workspace artifacts
+.trae/
